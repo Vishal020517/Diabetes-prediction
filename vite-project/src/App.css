@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* background-color: white; */
+  color: black;
+}
+.main-pg{
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* padding: 0.5em; */
+  .top-nav{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    .Logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      p{
+        color:rgb(63, 107, 227) ;
+      }
+      h3{
+        margin-top: -4px;
+      }
+    }
+    .features{
+      display: flex;
+      align-items: center;
+      gap: 2em;
+      button{
+        background-color: rgb(63, 107, 227);
+        color: white;
+      }
+    }
+  }
+  .content{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-top: 2em;
+    justify-content: center;
+  
+    .top{
+      display: flex;
+      justify-content: space-between;
+      .left{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h2{
+          font-size:4em;
+          font-weight:900;
+        }
+        .color-text{
+          color: rgb(63, 107, 227);
+          margin-top: -40px;
+        }
+        p{
+          text-align: start;
+          color: rgb(151, 147, 147);
+        }
+        .left-btns{
+          display: flex;
+          gap: 10px;
+          justify-content: center;
+          button{
+             background-color: rgb(63, 107, 227);
+             color: white;
+             width: 300px;
+          }
+        }
+      }
+    }
+    .bottom{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+      .des{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+          color: rgb(112, 108, 108); ;
+        }
+      }
+      .features{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        .box{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          p{
+            color: rgb(112, 108, 108); 
+          }
+          div{
+          
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color:rgb(63, 107, 227);
+            border-radius: 2px;
+            p{
+              /* background-color:transparent;
+              color: white; */
+              
+            }
+          }
+        }
+      }
+    }
+  }
+}
